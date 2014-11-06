@@ -1,0 +1,18 @@
+AncileMOD
+=========
+
+Getting Started
+---------------
+
+To get started with Android/CyanogenMod, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the CyanogenMod trees, use a command like this:
+
+    repo init -u git://github.com/AncileMOD/android_manifest.git -b AM-1.0
+
+Then to sync up:
+
+    repo sync
+
+Please see the [AOSP Instructions](http://source.android.com/source/building.html) for building instructions.
