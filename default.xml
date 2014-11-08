@@ -508,5 +508,6 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor" name="android_vendor" remote="github" revision="AM-1.0" />
+  <project path="vendor/am" name="android_vendor_am" remote="github" revision="AM-1.0" />
 
 </manifest>
