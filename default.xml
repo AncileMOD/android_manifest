@@ -14,7 +14,7 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
-  <project path="bionic" name="platform/bionic" groups="pdk" />
+  <project path="bionic" name="android_bionic" groups="pdk" remote="github" revision="AM-1.0" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
@@ -335,7 +335,7 @@
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="github" revision="AM-1.0" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="github" revision="AM-1.0" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" />
